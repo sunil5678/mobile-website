@@ -1,0 +1,461 @@
+.body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.clearflix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+/* body-end */
+
+/* master-starting */
+
+.master{
+    background-color:white;
+    width:80%;
+    margin:auto;
+    border:1px solid black;
+}
+
+/* master-end */
+/* header-start */
+
+ .header {
+   margin:auto;
+    width:100%;
+    background-color:white;
+    text-align:center;
+    
+    
+}
+
+.nav{
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    color:grey;
+}
+
+.nav a{
+    color:grey;
+    text-decoration:none;
+}
+
+.name p{
+    font-family: 'Pacifico', cursive;
+    font-size:25px;
+    color:orangered;
+    margin-right:20px;
+}
+
+.header button{
+    float:right;
+    background-color:white;
+    color:grey;
+    border:1px solid grey;
+    margin-top:-40px;
+    margin-right:20px;
+}
+
+.header button a{
+    color:grey;
+    text-decoration:none;
+
+}
+
+/* header-end */
+/* banner start */
+
+.banner{
+    background-image:url("banner.jpg");
+    background-size:cover;
+    background-position:center;
+    height:400px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-text{
+    width:40%;
+    text-align:center;
+    margin:auto;
+    position:relative;
+    top:120px;
+}
+
+.banner-text h1{
+    font-size:30px;
+    font-weight:bold;
+    color:darkcyan;
+    font-family: arial;
+
+}
+
+.banner-text p{
+    font-size:12px;
+    word-spacing: 3px;
+}
+
+.banner-text button{
+    color:white;
+    background-color:orangered;
+    border:0;
+    width:150px;
+    height:30px;
+    border-radius:4px;
+    margin-top:20px;
+}
+
+/* banner end */
+/* middle start */
+
+.middle{
+    margin:auto;
+    width:80%;
+    margin-top:30px;
+}
+
+.one{
+    width:30%;
+    background-color:white;
+    float:left;
+    height:300px;
+   
+    
+}
+
+.one h3{
+    color:darkcyan;
+    margin-left:50px;
+    font-family:arial;
+}
+
+.one p{
+    font-size:12px;
+    word-spacing: 3px;
+    margin-left:50px;
+}
+
+.two{
+    width:30%;
+    background-color:white;
+    height:300px;
+    float:left;
+}
+
+.two img{
+    border-radius:50%;
+    width:80%;
+    margin:12px;
+    float:left;
+    margin-left:40px;
+}
+
+/* middle-end */
+
+/* center-start */
+
+.center{
+    width:100%;
+    background-color:orangered;
+    height:250px;
+    color:white;
+    text-align:center;
+}
+
+.center-text{
+    width:50%;
+    margin:auto;
+    position:relative;
+    top:50px;
+}
+
+.center-text h3{
+    font-family:arial;
+}
+
+.center-text p{
+    font-size:12px;
+    word-spacing: 3px;
+    line-height: 20px;
+
+}
+
+/* center-end */
+
+/* starts ends */
+.ends{
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+    background-color:#ffff;
+    
+
+}
+
+.sun{
+    width:25%;
+    float:left;
+    background-color:#ffff;
+    margin-left:50px;
+    border:1px solid black;
+}
+
+.sun h3{
+    font-family:arial;
+    color:darkcyan;
+    margin-left:10px;
+    
+}
+
+.sun p{
+    font-size:13px;
+    line-height:20px;
+    margin-left:10px;
+}
+
+.sun img{
+    width:100%;
+}
+/* end-sun */
+/*start-footer  */
+
+.footer{
+    background-color:darkcyan;
+    height:250px;
+    text-align:center;
+    margin-top:50px;
+    color:white;
+    
+}
+
+.footer h2{
+    font-family:arial;
+    position:relative;
+    top:50px;
+   
+}
+.logo{
+    margin-top:70px;
+   
+
+
+}
+
+.logo .fa{
+    margin-right:80px;
+    margin-bottom:20px;
+}
+
+.logo hr{
+    width:50%;
+    margin-bottom:20px;
+}
+
+/* media quiery start */
+
+@media only screen and (max-width:800px){
+
+    .master{
+        width:100%;
+        margin:auto;
+        border:0;
+    }
+    .nav{
+        font-size:12px;
+    }
+    .name p{
+        font-size:20px;
+    }
+    .header button{
+        font-size:12px;
+    }
+
+    .banner{
+       
+        height:200px;
+        width:100%;
+         }
+
+         .banner-text{
+            width:100%;
+            text-align:center;
+            margin:auto;
+            position:relative;
+            top:50px;
+        }
+
+         .banner-text h1{
+            font-size:15px;
+            color:royalblue;
+        }
+
+        .banner-text p{
+            font-size:10px;
+            word-spacing: 1px;
+        }
+
+        .banner-text button{
+            color:white;
+            background-color:royalblue;
+            border:0;
+            width:100px;
+            height:30px;
+            border-radius:4px;
+            margin-top:20px;
+            font-size:12px;
+        }
+        .middle{
+            margin:auto;
+            width:100%;
+            margin-top:15px;
+        }
+
+        .one{
+            width:100%;
+            background-color:white;
+            float:left;
+            height:200px;
+           
+            
+        }
+        
+        .one h3{
+            color:royalblue;
+            margin-left:20px;
+            font-family:arial;
+            font-size:15px;
+        }
+        
+        .one p{
+            font-size:12px;
+            word-spacing: 3px;
+            margin-left:50px;
+        }
+        
+        .two{
+            width:100%;
+            background-color:white;
+            height:350px;
+            float:left;
+        }
+        
+        .two img{
+            border-radius:50%;
+            width:70%;
+            margin:12px;
+            float:left;
+            margin-left:60px;
+        }
+
+        .center{
+            width:100%;
+            background-color:royalblue;
+            height:150px;
+            color:white;
+            text-align:center;
+        }
+        
+        .center-text{
+            width:100%;
+            margin:auto;
+            position:relative;
+            top:10px;
+        }
+        
+        .center-text h3{
+            font-family:arial;
+            font-size:13px;
+        }
+        
+        .center-text p{
+            font-size:10px;
+            word-spacing: 3px;
+            line-height: 15px;
+        
+        }
+
+        .center span{
+            font-size:13px;
+        }
+
+        .ends{
+            width:100%;
+            margin:auto;
+            margin-top:20px;
+            background-color:#ffff;
+            
+        
+        }
+        
+        .sun{
+            width:100%;
+            float:left;
+            background-color:#ffff;
+            margin-left:-1px;
+            border:1px solid black;
+        }
+        
+        .sun h3{
+            font-family:arial;
+            color:royalblue;
+            margin-left:10px;
+            font-size:15px;
+            
+        }
+        
+        .sun p{
+            font-size:13px;
+            line-height:20px;
+            margin-left:10px;
+        }
+        
+        .sun img{
+            width:100%;
+        }
+
+        .footer{
+            background-color:royalblue;
+            height:200px;
+            text-align:center;
+            margin-top:20px;
+            color:white;
+            width:100%;
+            
+        }
+        
+        .footer h2{
+            font-family:arial;
+            position:relative;
+            top:20px;
+            font-size:15px;
+           
+        }
+        .logo{
+            margin-top:40px;
+            font-size:12px;
+           
+        
+        
+        }
+        
+        .logo .fa{
+            margin-right:40px;
+            margin-bottom:10px;
+        }
+        
+        .logo hr{
+            width:25%;
+            margin-bottom:20px;
+        }
+        
+        
+        
+       
+
+
+        
+}
